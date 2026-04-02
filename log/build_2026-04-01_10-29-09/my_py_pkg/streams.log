@@ -1,0 +1,19 @@
+[2.347s] Invoking command in '/home/sachin/ros2_ws2/src/build/my_py_pkg': PYTHONPATH=/home/sachin/ros2_ws2/src/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sachin/ros2_ws2/src/install/my_py_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sachin/ros2_ws2/src/build/my_py_pkg/build --no-deps symlink_data --force
+[3.310s] running develop
+[3.862s] running egg_info
+[3.917s] writing my_py_pkg.egg-info/PKG-INFO
+[3.922s] writing dependency_links to my_py_pkg.egg-info/dependency_links.txt
+[3.922s] writing entry points to my_py_pkg.egg-info/entry_points.txt
+[3.923s] writing requirements to my_py_pkg.egg-info/requires.txt
+[3.923s] writing top-level names to my_py_pkg.egg-info/top_level.txt
+[4.030s] reading manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[4.032s] writing manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[4.095s] running build_ext
+[4.096s] Creating /home/sachin/ros2_ws2/src/install/my_py_pkg/lib/python3.12/site-packages/my-py-pkg.egg-link (link to .)
+[4.097s] Installing py_node script to /home/sachin/ros2_ws2/src/install/my_py_pkg/lib/my_py_pkg
+[4.099s] 
+[4.100s] Installed /home/sachin/ros2_ws2/src/build/my_py_pkg
+[4.101s] running symlink_data
+[4.101s] symbolically linking /home/sachin/ros2_ws2/src/build/my_py_pkg/resource/my_py_pkg -> /home/sachin/ros2_ws2/src/install/my_py_pkg/share/ament_index/resource_index/packages
+[4.102s] symbolically linking /home/sachin/ros2_ws2/src/build/my_py_pkg/package.xml -> /home/sachin/ros2_ws2/src/install/my_py_pkg/share/my_py_pkg
+[4.198s] Invoked command in '/home/sachin/ros2_ws2/src/build/my_py_pkg' returned '0': PYTHONPATH=/home/sachin/ros2_ws2/src/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sachin/ros2_ws2/src/install/my_py_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sachin/ros2_ws2/src/build/my_py_pkg/build --no-deps symlink_data --force

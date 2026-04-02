@@ -1,0 +1,37 @@
+[3.942s] Invoking command in '/home/sachin/ros2_ws2/src/my_py_pkg': PYTHONPATH=/home/sachin/ros2_ws2/src/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sachin/ros2_ws2/src/install/my_py_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/my_py_pkg build --build-base /home/sachin/ros2_ws2/src/build/my_py_pkg/build install --record /home/sachin/ros2_ws2/src/build/my_py_pkg/install.log --single-version-externally-managed install_data
+[4.778s] running egg_info
+[4.778s] creating ../build/my_py_pkg/my_py_pkg.egg-info
+[4.856s] writing ../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[4.856s] writing dependency_links to ../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[4.858s] writing entry points to ../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[4.859s] writing requirements to ../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[4.860s] writing top-level names to ../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[4.860s] writing manifest file '../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[5.001s] reading manifest file '../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[5.005s] writing manifest file '../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[5.006s] running build
+[5.006s] running build_py
+[5.006s] creating /home/sachin/ros2_ws2/src/build/my_py_pkg/build
+[5.006s] creating /home/sachin/ros2_ws2/src/build/my_py_pkg/build/lib
+[5.007s] creating /home/sachin/ros2_ws2/src/build/my_py_pkg/build/lib/my_py_pkg
+[5.008s] copying my_py_pkg/__init__.py -> /home/sachin/ros2_ws2/src/build/my_py_pkg/build/lib/my_py_pkg
+[5.009s] copying my_py_pkg/my_first_node.py -> /home/sachin/ros2_ws2/src/build/my_py_pkg/build/lib/my_py_pkg
+[5.010s] running install
+[5.026s] running install_lib
+[5.091s] creating /home/sachin/ros2_ws2/src/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[5.091s] copying /home/sachin/ros2_ws2/src/build/my_py_pkg/build/lib/my_py_pkg/__init__.py -> /home/sachin/ros2_ws2/src/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[5.092s] copying /home/sachin/ros2_ws2/src/build/my_py_pkg/build/lib/my_py_pkg/my_first_node.py -> /home/sachin/ros2_ws2/src/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[5.094s] byte-compiling /home/sachin/ros2_ws2/src/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/__init__.py to __init__.cpython-312.pyc
+[5.096s] byte-compiling /home/sachin/ros2_ws2/src/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/my_first_node.py to my_first_node.cpython-312.pyc
+[5.097s] running install_data
+[5.098s] creating /home/sachin/ros2_ws2/src/install/my_py_pkg/share/ament_index
+[5.098s] creating /home/sachin/ros2_ws2/src/install/my_py_pkg/share/ament_index/resource_index
+[5.099s] creating /home/sachin/ros2_ws2/src/install/my_py_pkg/share/ament_index/resource_index/packages
+[5.100s] copying resource/my_py_pkg -> /home/sachin/ros2_ws2/src/install/my_py_pkg/share/ament_index/resource_index/packages
+[5.101s] copying package.xml -> /home/sachin/ros2_ws2/src/install/my_py_pkg/share/my_py_pkg
+[5.102s] running install_egg_info
+[5.166s] Copying ../build/my_py_pkg/my_py_pkg.egg-info to /home/sachin/ros2_ws2/src/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg-0.0.0-py3.12.egg-info
+[5.174s] running install_scripts
+[5.581s] Installing py_node script to /home/sachin/ros2_ws2/src/install/my_py_pkg/lib/my_py_pkg
+[5.584s] writing list of installed files to '/home/sachin/ros2_ws2/src/build/my_py_pkg/install.log'
+[5.689s] Invoked command in '/home/sachin/ros2_ws2/src/my_py_pkg' returned '0': PYTHONPATH=/home/sachin/ros2_ws2/src/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sachin/ros2_ws2/src/install/my_py_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/my_py_pkg build --build-base /home/sachin/ros2_ws2/src/build/my_py_pkg/build install --record /home/sachin/ros2_ws2/src/build/my_py_pkg/install.log --single-version-externally-managed install_data

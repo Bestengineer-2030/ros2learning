@@ -1,0 +1,19 @@
+[2.146s] Invoking command in '/home/sachin/ros2_ws2/src/build/my_py_pkg': PYTHONPATH=/home/sachin/ros2_ws2/src/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sachin/ros2_ws2/src/install/my_py_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sachin/ros2_ws2/src/build/my_py_pkg/build --no-deps symlink_data
+[3.015s] running develop
+[3.536s] running egg_info
+[3.582s] writing my_py_pkg.egg-info/PKG-INFO
+[3.583s] writing dependency_links to my_py_pkg.egg-info/dependency_links.txt
+[3.584s] writing entry points to my_py_pkg.egg-info/entry_points.txt
+[3.585s] writing requirements to my_py_pkg.egg-info/requires.txt
+[3.588s] writing top-level names to my_py_pkg.egg-info/top_level.txt
+[3.706s] reading manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[3.706s] writing manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[3.764s] running build_ext
+[3.765s] Creating /home/sachin/ros2_ws2/src/install/my_py_pkg/lib/python3.12/site-packages/my-py-pkg.egg-link (link to .)
+[3.767s] Installing py_node script to /home/sachin/ros2_ws2/src/install/my_py_pkg/lib/my_py_pkg
+[3.768s] Installing robot_news_station script to /home/sachin/ros2_ws2/src/install/my_py_pkg/lib/my_py_pkg
+[3.772s] Installing smartphone script to /home/sachin/ros2_ws2/src/install/my_py_pkg/lib/my_py_pkg
+[3.772s] 
+[3.773s] Installed /home/sachin/ros2_ws2/src/build/my_py_pkg
+[3.774s] running symlink_data
+[3.870s] Invoked command in '/home/sachin/ros2_ws2/src/build/my_py_pkg' returned '0': PYTHONPATH=/home/sachin/ros2_ws2/src/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sachin/ros2_ws2/src/install/my_py_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sachin/ros2_ws2/src/build/my_py_pkg/build --no-deps symlink_data

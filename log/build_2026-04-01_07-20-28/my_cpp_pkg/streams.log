@@ -1,0 +1,22 @@
+[0.025s] Invoking command in '/home/sachin/ros2_ws2/src/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sachin/ros2_ws2/src/install/my_py_pkg:/home/sachin/robosim/install/restaurant_robot:/home/sachin/turtlebot3_ws/install/turtlebot3_teleop:/home/sachin/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy /usr/bin/cmake --build /home/sachin/ros2_ws2/src/build/my_cpp_pkg -- -j12 -l12
+[0.165s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.385s] -- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.541s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.552s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.569s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.585s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.656s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.659s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.837s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.071s] -- Configuring done (0.9s)
+[1.087s] -- Generating done (0.0s)
+[1.092s] -- Build files have been written to: /home/sachin/ros2_ws2/src/build/my_cpp_pkg
+[1.131s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_node.dir/src/my_first_node.cpp.o[0m
+[1.166s] [01m[K/home/sachin/ros2_ws2/src/my_cpp_pkg/src/my_first_node.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Krclpp/rclcpp.hpp: No such file or directory
+[1.166s]     1 | #include [01;31m[K"rclpp/rclcpp.hpp"[m[K
+[1.166s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[1.166s] compilation terminated.
+[1.167s] gmake[2]: *** [CMakeFiles/cpp_node.dir/build.make:76: CMakeFiles/cpp_node.dir/src/my_first_node.cpp.o] Error 1
+[1.167s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/cpp_node.dir/all] Error 2
+[1.168s] gmake: *** [Makefile:146: all] Error 2
+[1.170s] Invoked command in '/home/sachin/ros2_ws2/src/build/my_cpp_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sachin/ros2_ws2/src/install/my_py_pkg:/home/sachin/robosim/install/restaurant_robot:/home/sachin/turtlebot3_ws/install/turtlebot3_teleop:/home/sachin/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy /usr/bin/cmake --build /home/sachin/ros2_ws2/src/build/my_cpp_pkg -- -j12 -l12

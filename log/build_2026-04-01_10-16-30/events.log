@@ -1,0 +1,165 @@
+[0.000000] (-) TimerEvent: {}
+[0.002453] (my_cpp_pkg) JobQueued: {'identifier': 'my_cpp_pkg', 'dependencies': OrderedDict()}
+[0.003202] (my_py_pkg) JobQueued: {'identifier': 'my_py_pkg', 'dependencies': OrderedDict()}
+[0.003351] (my_cpp_pkg) JobStarted: {'identifier': 'my_cpp_pkg'}
+[0.032707] (my_py_pkg) JobStarted: {'identifier': 'my_py_pkg'}
+[0.064130] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'cmake'}
+[0.069761] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'build'}
+[0.069887] (my_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sachin/ros2_ws2/src/build/my_cpp_pkg', '--', '-j12', '-l12'], 'cwd': '/home/sachin/ros2_ws2/src/build/my_cpp_pkg', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'sachin', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/sachin/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/sachin/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/sachin/turtlebot3_ws/install/dynamixel_sdk/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'WT_PROFILE_ID': '{61c54bbd-c2c6-5271-96e7-009a87ff44bf}', 'HOME': '/home/sachin', 'OLDPWD': '/home/sachin', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/sachin/ros2_ws2/install:/home/sachin/robosim/install:/home/sachin/turtlebot3_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'sachin', 'NAME': 'sachin', 'WSL_INTEROP': '/run/WSL/523495_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/home/sachin/.local/bin:/home/sachin/.local/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Python314/Scripts/:/mnt/c/Python314/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Users/sachi/AppData/Local/Programs/Python/Python313/Scripts/:/mnt/c/Users/sachi/AppData/Local/Programs/Python/Python313/:/mnt/c/Users/sachi/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/sachi/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/sachi/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/sachi/AppData/Local/Programs/cursor/resources/app/bin:/mnt/c/Users/sachi/AppData/Roaming/npm:/mnt/c/Users/sachi/.local/bin:/snap/bin', 'WT_SESSION': '5a3105ce-9790-4a02-b0b9-b15e8cc504f3', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'ROS_DOMAIN_ID': '30', 'AMENT_PREFIX_PATH': '/home/sachin/ros2_ws2/install/my_py_pkg:/home/sachin/ros2_ws2/install/my_cpp_pkg:/home/sachin/robosim/install/restaurant_robot:/home/sachin/turtlebot3_ws/install/turtlebot3:/home/sachin/turtlebot3_ws/install/turtlebot3_teleop:/home/sachin/turtlebot3_ws/install/turtlebot3_simulations:/home/sachin/turtlebot3_ws/install/turtlebot3_bringup:/home/sachin/turtlebot3_ws/install/turtlebot3_node:/home/sachin/turtlebot3_ws/install/turtlebot3_navigation2:/home/sachin/turtlebot3_ws/install/turtlebot3_fake_node:/home/sachin/turtlebot3_ws/install/turtlebot3_example:/home/sachin/turtlebot3_ws/install/turtlebot3_msgs:/home/sachin/turtlebot3_ws/install/turtlebot3_gazebo:/home/sachin/turtlebot3_ws/install/turtlebot3_description:/home/sachin/turtlebot3_ws/install/turtlebot3_cartographer:/home/sachin/turtlebot3_ws/install/dynamixel_sdk_examples:/home/sachin/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/sachin/turtlebot3_ws/install/dynamixel_sdk:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/sachin/ros2_ws2/src/build/my_cpp_pkg', 'TURTLEBOT3_MODEL': 'burger', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/sachin/ros2_ws2/install/my_py_pkg/lib/python3.12/site-packages:/home/sachin/robosim/install/restaurant_robot/lib/python3.12/site-packages:/home/sachin/turtlebot3_ws/build/turtlebot3_teleop:/home/sachin/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.12/site-packages:/home/sachin/turtlebot3_ws/build/turtlebot3_example:/home/sachin/turtlebot3_ws/install/turtlebot3_example/lib/python3.12/site-packages:/home/sachin/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.12/site-packages:/home/sachin/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages:/home/sachin/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/sachin/ros2_ws2/install/my_cpp_pkg:/home/sachin/turtlebot3_ws/install/turtlebot3:/home/sachin/turtlebot3_ws/install/turtlebot3_simulations:/home/sachin/turtlebot3_ws/install/turtlebot3_bringup:/home/sachin/turtlebot3_ws/install/turtlebot3_node:/home/sachin/turtlebot3_ws/install/turtlebot3_navigation2:/home/sachin/turtlebot3_ws/install/turtlebot3_fake_node:/home/sachin/turtlebot3_ws/install/turtlebot3_msgs:/home/sachin/turtlebot3_ws/install/turtlebot3_gazebo:/home/sachin/turtlebot3_ws/install/turtlebot3_description:/home/sachin/turtlebot3_ws/install/turtlebot3_cartographer:/home/sachin/turtlebot3_ws/install/dynamixel_sdk_examples:/home/sachin/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/sachin/turtlebot3_ws/install/dynamixel_sdk:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/sachin/ros2_ws2/install/my_py_pkg:/home/sachin/robosim/install/restaurant_robot:/home/sachin/turtlebot3_ws/install/turtlebot3_teleop:/home/sachin/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}), 'shell': False}
+[0.096975] (-) TimerEvent: {}
+[0.198221] (-) TimerEvent: {}
+[0.299194] (-) TimerEvent: {}
+[0.399756] (-) TimerEvent: {}
+[0.500291] (-) TimerEvent: {}
+[0.581776] (my_cpp_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/cpp_node.dir/src/my_first_node.cpp.o\x1b[0m\n'}
+[0.600524] (-) TimerEvent: {}
+[0.701202] (-) TimerEvent: {}
+[0.801859] (-) TimerEvent: {}
+[0.902493] (-) TimerEvent: {}
+[1.004162] (-) TimerEvent: {}
+[1.104895] (-) TimerEvent: {}
+[1.208615] (-) TimerEvent: {}
+[1.309173] (-) TimerEvent: {}
+[1.409744] (-) TimerEvent: {}
+[1.510288] (-) TimerEvent: {}
+[1.610777] (-) TimerEvent: {}
+[1.711476] (-) TimerEvent: {}
+[1.813284] (-) TimerEvent: {}
+[1.913999] (-) TimerEvent: {}
+[2.017528] (-) TimerEvent: {}
+[2.118195] (-) TimerEvent: {}
+[2.218689] (-) TimerEvent: {}
+[2.319248] (-) TimerEvent: {}
+[2.419862] (-) TimerEvent: {}
+[2.520563] (-) TimerEvent: {}
+[2.622471] (-) TimerEvent: {}
+[2.724704] (-) TimerEvent: {}
+[2.825703] (-) TimerEvent: {}
+[2.930742] (-) TimerEvent: {}
+[3.031336] (-) TimerEvent: {}
+[3.051517] (my_py_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/my_py_pkg', 'build', '--build-base', '/home/sachin/ros2_ws2/src/build/my_py_pkg/build', 'install', '--record', '/home/sachin/ros2_ws2/src/build/my_py_pkg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/sachin/ros2_ws2/src/my_py_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'sachin', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/sachin/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/sachin/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/sachin/turtlebot3_ws/install/dynamixel_sdk/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'WT_PROFILE_ID': '{61c54bbd-c2c6-5271-96e7-009a87ff44bf}', 'HOME': '/home/sachin', 'OLDPWD': '/home/sachin', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/sachin/ros2_ws2/install:/home/sachin/robosim/install:/home/sachin/turtlebot3_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'sachin', 'NAME': 'sachin', 'WSL_INTEROP': '/run/WSL/523495_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/home/sachin/.local/bin:/home/sachin/.local/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Python314/Scripts/:/mnt/c/Python314/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Users/sachi/AppData/Local/Programs/Python/Python313/Scripts/:/mnt/c/Users/sachi/AppData/Local/Programs/Python/Python313/:/mnt/c/Users/sachi/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/sachi/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/sachi/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/sachi/AppData/Local/Programs/cursor/resources/app/bin:/mnt/c/Users/sachi/AppData/Roaming/npm:/mnt/c/Users/sachi/.local/bin:/snap/bin', 'WT_SESSION': '5a3105ce-9790-4a02-b0b9-b15e8cc504f3', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'ROS_DOMAIN_ID': '30', 'AMENT_PREFIX_PATH': '/home/sachin/ros2_ws2/install/my_py_pkg:/home/sachin/ros2_ws2/install/my_cpp_pkg:/home/sachin/robosim/install/restaurant_robot:/home/sachin/turtlebot3_ws/install/turtlebot3:/home/sachin/turtlebot3_ws/install/turtlebot3_teleop:/home/sachin/turtlebot3_ws/install/turtlebot3_simulations:/home/sachin/turtlebot3_ws/install/turtlebot3_bringup:/home/sachin/turtlebot3_ws/install/turtlebot3_node:/home/sachin/turtlebot3_ws/install/turtlebot3_navigation2:/home/sachin/turtlebot3_ws/install/turtlebot3_fake_node:/home/sachin/turtlebot3_ws/install/turtlebot3_example:/home/sachin/turtlebot3_ws/install/turtlebot3_msgs:/home/sachin/turtlebot3_ws/install/turtlebot3_gazebo:/home/sachin/turtlebot3_ws/install/turtlebot3_description:/home/sachin/turtlebot3_ws/install/turtlebot3_cartographer:/home/sachin/turtlebot3_ws/install/dynamixel_sdk_examples:/home/sachin/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/sachin/turtlebot3_ws/install/dynamixel_sdk:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/sachin/ros2_ws2/src/build/my_py_pkg', 'TURTLEBOT3_MODEL': 'burger', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/sachin/ros2_ws2/src/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sachin/ros2_ws2/src/install/my_py_pkg/lib/python3.12/site-packages:/home/sachin/ros2_ws2/install/my_py_pkg/lib/python3.12/site-packages:/home/sachin/robosim/install/restaurant_robot/lib/python3.12/site-packages:/home/sachin/turtlebot3_ws/build/turtlebot3_teleop:/home/sachin/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.12/site-packages:/home/sachin/turtlebot3_ws/build/turtlebot3_example:/home/sachin/turtlebot3_ws/install/turtlebot3_example/lib/python3.12/site-packages:/home/sachin/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.12/site-packages:/home/sachin/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages:/home/sachin/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/sachin/ros2_ws2/install/my_cpp_pkg:/home/sachin/turtlebot3_ws/install/turtlebot3:/home/sachin/turtlebot3_ws/install/turtlebot3_simulations:/home/sachin/turtlebot3_ws/install/turtlebot3_bringup:/home/sachin/turtlebot3_ws/install/turtlebot3_node:/home/sachin/turtlebot3_ws/install/turtlebot3_navigation2:/home/sachin/turtlebot3_ws/install/turtlebot3_fake_node:/home/sachin/turtlebot3_ws/install/turtlebot3_msgs:/home/sachin/turtlebot3_ws/install/turtlebot3_gazebo:/home/sachin/turtlebot3_ws/install/turtlebot3_description:/home/sachin/turtlebot3_ws/install/turtlebot3_cartographer:/home/sachin/turtlebot3_ws/install/dynamixel_sdk_examples:/home/sachin/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/sachin/turtlebot3_ws/install/dynamixel_sdk:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}, 'shell': False}
+[3.131518] (-) TimerEvent: {}
+[3.232548] (-) TimerEvent: {}
+[3.335174] (-) TimerEvent: {}
+[3.435711] (-) TimerEvent: {}
+[3.537189] (-) TimerEvent: {}
+[3.638108] (-) TimerEvent: {}
+[3.738745] (-) TimerEvent: {}
+[3.839195] (-) TimerEvent: {}
+[3.924467] (my_py_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[3.939349] (-) TimerEvent: {}
+[3.998019] (my_py_pkg) StdoutLine: {'line': b'writing ../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO\n'}
+[3.998868] (my_py_pkg) StdoutLine: {'line': b'writing dependency_links to ../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt\n'}
+[4.000053] (my_py_pkg) StdoutLine: {'line': b'writing entry points to ../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt\n'}
+[4.000851] (my_py_pkg) StdoutLine: {'line': b'writing requirements to ../build/my_py_pkg/my_py_pkg.egg-info/requires.txt\n'}
+[4.003877] (my_py_pkg) StdoutLine: {'line': b'writing top-level names to ../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt\n'}
+[4.039477] (-) TimerEvent: {}
+[4.140406] (-) TimerEvent: {}
+[4.145985] (my_py_pkg) StdoutLine: {'line': b"reading manifest file '../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'\n"}
+[4.151302] (my_py_pkg) StdoutLine: {'line': b"writing manifest file '../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'\n"}
+[4.152118] (my_py_pkg) StdoutLine: {'line': b'running build\n'}
+[4.152515] (my_py_pkg) StdoutLine: {'line': b'running build_py\n'}
+[4.153698] (my_py_pkg) StdoutLine: {'line': b'running install\n'}
+[4.173659] (my_py_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[4.240633] (-) TimerEvent: {}
+[4.253352] (my_py_pkg) StdoutLine: {'line': b'running install_data\n'}
+[4.254145] (my_py_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.335526] (my_py_pkg) StdoutLine: {'line': b"removing '/home/sachin/ros2_ws2/src/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[4.339369] (my_py_pkg) StdoutLine: {'line': b'Copying ../build/my_py_pkg/my_py_pkg.egg-info to /home/sachin/ros2_ws2/src/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg-0.0.0-py3.12.egg-info\n'}
+[4.340739] (-) TimerEvent: {}
+[4.341130] (my_py_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[4.441104] (-) TimerEvent: {}
+[4.541820] (-) TimerEvent: {}
+[4.643332] (-) TimerEvent: {}
+[4.744955] (-) TimerEvent: {}
+[4.762170] (my_py_pkg) StdoutLine: {'line': b'Installing py_node script to /home/sachin/ros2_ws2/src/install/my_py_pkg/lib/my_py_pkg\n'}
+[4.763796] (my_py_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/sachin/ros2_ws2/src/build/my_py_pkg/install.log'\n"}
+[4.845323] (-) TimerEvent: {}
+[4.853622] (my_py_pkg) CommandEnded: {'returncode': 0}
+[4.894872] (my_py_pkg) JobEnded: {'identifier': 'my_py_pkg', 'rc': 0}
+[4.945530] (-) TimerEvent: {}
+[5.046900] (-) TimerEvent: {}
+[5.147528] (-) TimerEvent: {}
+[5.248623] (-) TimerEvent: {}
+[5.349241] (-) TimerEvent: {}
+[5.450250] (-) TimerEvent: {}
+[5.551805] (-) TimerEvent: {}
+[5.653556] (-) TimerEvent: {}
+[5.754283] (-) TimerEvent: {}
+[5.855526] (-) TimerEvent: {}
+[5.956070] (-) TimerEvent: {}
+[6.057627] (-) TimerEvent: {}
+[6.159481] (-) TimerEvent: {}
+[6.261380] (-) TimerEvent: {}
+[6.362034] (-) TimerEvent: {}
+[6.462634] (-) TimerEvent: {}
+[6.563315] (-) TimerEvent: {}
+[6.664039] (-) TimerEvent: {}
+[6.764666] (-) TimerEvent: {}
+[6.865396] (-) TimerEvent: {}
+[6.967478] (-) TimerEvent: {}
+[7.069766] (-) TimerEvent: {}
+[7.173560] (-) TimerEvent: {}
+[7.274201] (-) TimerEvent: {}
+[7.374751] (-) TimerEvent: {}
+[7.475309] (-) TimerEvent: {}
+[7.577957] (-) TimerEvent: {}
+[7.679071] (-) TimerEvent: {}
+[7.779948] (-) TimerEvent: {}
+[7.880535] (-) TimerEvent: {}
+[7.981137] (-) TimerEvent: {}
+[8.081680] (-) TimerEvent: {}
+[8.182420] (-) TimerEvent: {}
+[8.285615] (-) TimerEvent: {}
+[8.386296] (-) TimerEvent: {}
+[8.486789] (-) TimerEvent: {}
+[8.588363] (-) TimerEvent: {}
+[8.690477] (-) TimerEvent: {}
+[8.790947] (-) TimerEvent: {}
+[8.892425] (-) TimerEvent: {}
+[8.992936] (-) TimerEvent: {}
+[9.093928] (-) TimerEvent: {}
+[9.120595] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sachin/ros2_ws2/src/my_cpp_pkg/src/my_first_node.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KMyNode::\x1b[01;32m\x1b[KMyNode\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.123334] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sachin/ros2_ws2/src/my_cpp_pkg/src/my_first_node.cpp:5:43:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kclass \xe2\x80\x98\x1b[01m\x1b[KMyNode\x1b[m\x1b[K\xe2\x80\x99 does not have any field named \xe2\x80\x98\x1b[01m\x1b[Kcounter_\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.123615] (my_cpp_pkg) StderrLine: {'line': b'    5 |      MyNode() : rclcpp::Node("cpp_test"), \x1b[01;31m\x1b[Kcounter_\x1b[m\x1b[K(0)\n'}
+[9.123798] (my_cpp_pkg) StderrLine: {'line': b'      |                                           \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[9.181221] (my_cpp_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[9.181785] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27\x1b[m\x1b[K,\n'}
+[9.182008] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171\x1b[m\x1b[K,\n'}
+[9.182177] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sachin/ros2_ws2/src/my_cpp_pkg/src/my_first_node.cpp:1\x1b[m\x1b[K:\n'}
+[9.182351] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sachin/ros2_ws2/src/my_cpp_pkg/src/my_first_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MyNode::\x1b[01;32m\x1b[Ktimer_callback\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.182498] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sachin/ros2_ws2/src/my_cpp_pkg/src/my_first_node.cpp:13:71:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcounter_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[9.182613] (my_cpp_pkg) StderrLine: {'line': b'   13 | s->get_logger(),"Timer callback triggered %d", \x1b[01;31m\x1b[Kcounter_\x1b[m\x1b[K);\n'}
+[9.182716] (my_cpp_pkg) StderrLine: {'line': b'      |                                                \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[9.182819] (my_cpp_pkg) StderrLine: {'line': b'\n'}
+[9.196085] (-) TimerEvent: {}
+[9.201709] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sachin/ros2_ws2/src/my_cpp_pkg/src/my_first_node.cpp:14:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcounter_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[9.202144] (my_cpp_pkg) StderrLine: {'line': b'   14 |         \x1b[01;31m\x1b[Kcounter_\x1b[m\x1b[K++;\n'}
+[9.202351] (my_cpp_pkg) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[9.296200] (-) TimerEvent: {}
+[9.396648] (-) TimerEvent: {}
+[9.497216] (-) TimerEvent: {}
+[9.598075] (-) TimerEvent: {}
+[9.698756] (-) TimerEvent: {}
+[9.800022] (-) TimerEvent: {}
+[9.900963] (-) TimerEvent: {}
+[10.001333] (-) TimerEvent: {}
+[10.101917] (-) TimerEvent: {}
+[10.202468] (-) TimerEvent: {}
+[10.303737] (-) TimerEvent: {}
+[10.404763] (-) TimerEvent: {}
+[10.505235] (-) TimerEvent: {}
+[10.605859] (-) TimerEvent: {}
+[10.706338] (-) TimerEvent: {}
+[10.807237] (-) TimerEvent: {}
+[10.908601] (-) TimerEvent: {}
+[11.010122] (-) TimerEvent: {}
+[11.110643] (-) TimerEvent: {}
+[11.211255] (-) TimerEvent: {}
+[11.311810] (-) TimerEvent: {}
+[11.353934] (my_cpp_pkg) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/cpp_node.dir/build.make:76: CMakeFiles/cpp_node.dir/src/my_first_node.cpp.o] Error 1\n'}
+[11.356133] (my_cpp_pkg) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/cpp_node.dir/all] Error 2\n'}
+[11.356391] (my_cpp_pkg) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[11.361648] (my_cpp_pkg) CommandEnded: {'returncode': 2}
+[11.388254] (my_cpp_pkg) JobEnded: {'identifier': 'my_cpp_pkg', 'rc': 2}
+[11.399423] (-) EventReactorShutdown: {}

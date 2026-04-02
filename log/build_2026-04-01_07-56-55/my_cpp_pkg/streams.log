@@ -1,0 +1,38 @@
+[0.025s] Invoking command in '/home/sachin/ros2_ws2/src/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sachin/ros2_ws2/src/install/my_py_pkg:/home/sachin/robosim/install/restaurant_robot:/home/sachin/turtlebot3_ws/install/turtlebot3_teleop:/home/sachin/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy /usr/bin/cmake --build /home/sachin/ros2_ws2/src/build/my_cpp_pkg -- -j12 -l12
+[0.193s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_node.dir/src/my_first_node.cpp.o[0m
+[0.603s] [01m[K/home/sachin/ros2_ws2/src/my_cpp_pkg/src/my_first_node.cpp:24:36:[m[K [01;35m[Kwarning: [m[Kmissing terminating " character
+[0.603s]    24 |     RCLCPP_INFO(node->get_logger(),[01;35m[K"[m[KHello ROS2
+[0.603s]       |                                    [01;35m[K^[m[K
+[0.603s] [01m[K/home/sachin/ros2_ws2/src/my_cpp_pkg/src/my_first_node.cpp:28:2:[m[K [01;31m[Kerror: [m[Kunterminated argument list invoking macro "RCLCPP_INFO"
+[0.603s]    28 | }
+[0.604s]       |  [01;31m[K^[m[K
+[2.345s] [01m[K/home/sachin/ros2_ws2/src/my_cpp_pkg/src/my_first_node.cpp:[m[K In constructor ‘[01m[KMyNode::[01;32m[KMyNode[m[K()[m[K’:
+[2.345s] [01m[K/home/sachin/ros2_ws2/src/my_cpp_pkg/src/my_first_node.cpp:5:43:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KMyNode[m[K’ does not have any field named ‘[01m[Kcounter_[m[K’
+[2.345s]     5 |      MyNode() : rclcpp::Node("cpp_test"), [01;31m[Kcounter_[m[K(0)
+[2.345s]       |                                           [01;31m[K^~~~~~~~[m[K
+[2.357s] In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[2.357s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+[2.357s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+[2.358s]                  from [01m[K/home/sachin/ros2_ws2/src/my_cpp_pkg/src/my_first_node.cpp:1[m[K:
+[2.358s] [01m[K/home/sachin/ros2_ws2/src/my_cpp_pkg/src/my_first_node.cpp:[m[K In member function ‘[01m[Kvoid MyNode::[01;32m[Ktimer_callback[m[K()[m[K’:
+[2.358s] [01m[K/home/sachin/ros2_ws2/src/my_cpp_pkg/src/my_first_node.cpp:13:71:[m[K [01;31m[Kerror: [m[K‘[01m[Kcounter_[m[K’ was not declared in this scope
+[2.358s]    13 | s->get_logger(),"Timer callback triggered %d", [01;31m[Kcounter_[m[K);
+[2.358s]       |                                                [01;31m[K^~~~~~~~[m[K
+[2.358s] 
+[2.362s] [01m[K/home/sachin/ros2_ws2/src/my_cpp_pkg/src/my_first_node.cpp:14:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcounter_[m[K’ was not declared in this scope
+[2.362s]    14 |         [01;31m[Kcounter_[m[K++;
+[2.362s]       |         [01;31m[K^~~~~~~~[m[K
+[2.366s] [01m[K/home/sachin/ros2_ws2/src/my_cpp_pkg/src/my_first_node.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[2.366s] [01m[K/home/sachin/ros2_ws2/src/my_cpp_pkg/src/my_first_node.cpp:24:5:[m[K [01;31m[Kerror: [m[K‘[01m[KRCLCPP_INFO[m[K’ was not declared in this scope
+[2.366s]    24 |     [01;31m[KRCLCPP_INFO[m[K(node->get_logger(),"Hello ROS2
+[2.366s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[2.366s] [01m[K/home/sachin/ros2_ws2/src/my_cpp_pkg/src/my_first_node.cpp:24:16:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[2.366s]    24 |     RCLCPP_INFO[01;31m[K([m[Knode->get_logger(),"Hello ROS2
+[2.367s]       |                [01;31m[K^[m[K
+[2.367s] [01m[K/home/sachin/ros2_ws2/src/my_cpp_pkg/src/my_first_node.cpp:21:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[2.367s]    21 | [01;36m[K{[m[K
+[2.367s]       | [01;36m[K^[m[K
+[2.891s] gmake[2]: *** [CMakeFiles/cpp_node.dir/build.make:76: CMakeFiles/cpp_node.dir/src/my_first_node.cpp.o] Error 1
+[2.891s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/cpp_node.dir/all] Error 2
+[2.891s] gmake: *** [Makefile:146: all] Error 2
+[2.893s] Invoked command in '/home/sachin/ros2_ws2/src/build/my_cpp_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sachin/ros2_ws2/src/install/my_py_pkg:/home/sachin/robosim/install/restaurant_robot:/home/sachin/turtlebot3_ws/install/turtlebot3_teleop:/home/sachin/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy /usr/bin/cmake --build /home/sachin/ros2_ws2/src/build/my_cpp_pkg -- -j12 -l12

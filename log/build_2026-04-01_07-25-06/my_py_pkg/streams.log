@@ -1,0 +1,21 @@
+[0.964s] Invoking command in '/home/sachin/ros2_ws2/src/my_py_pkg': PYTHONPATH=/home/sachin/ros2_ws2/src/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sachin/ros2_ws2/src/install/my_py_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/my_py_pkg build --build-base /home/sachin/ros2_ws2/src/build/my_py_pkg/build install --record /home/sachin/ros2_ws2/src/build/my_py_pkg/install.log --single-version-externally-managed install_data
+[1.176s] running egg_info
+[1.192s] writing ../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[1.192s] writing dependency_links to ../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[1.192s] writing entry points to ../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[1.192s] writing requirements to ../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[1.192s] writing top-level names to ../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[1.225s] reading manifest file '../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[1.226s] writing manifest file '../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[1.226s] running build
+[1.226s] running build_py
+[1.227s] running install
+[1.233s] running install_lib
+[1.253s] running install_data
+[1.253s] running install_egg_info
+[1.268s] removing '/home/sachin/ros2_ws2/src/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg-0.0.0-py3.12.egg-info' (and everything under it)
+[1.269s] Copying ../build/my_py_pkg/my_py_pkg.egg-info to /home/sachin/ros2_ws2/src/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg-0.0.0-py3.12.egg-info
+[1.270s] running install_scripts
+[1.377s] Installing py_node script to /home/sachin/ros2_ws2/src/install/my_py_pkg/lib/my_py_pkg
+[1.378s] writing list of installed files to '/home/sachin/ros2_ws2/src/build/my_py_pkg/install.log'
+[1.401s] Invoked command in '/home/sachin/ros2_ws2/src/my_py_pkg' returned '0': PYTHONPATH=/home/sachin/ros2_ws2/src/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sachin/ros2_ws2/src/install/my_py_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/my_py_pkg build --build-base /home/sachin/ros2_ws2/src/build/my_py_pkg/build install --record /home/sachin/ros2_ws2/src/build/my_py_pkg/install.log --single-version-externally-managed install_data
