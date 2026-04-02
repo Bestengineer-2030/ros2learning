@@ -1,0 +1,40 @@
+[0.055s] Invoking command in '/home/sachin/ros2_ws2/src/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sachin/robosim/install/restaurant_robot:/home/sachin/turtlebot3_ws/install/turtlebot3_teleop:/home/sachin/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy /usr/bin/cmake --build /home/sachin/ros2_ws2/src/build/my_cpp_pkg -- -j12 -l12
+[0.439s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.196s] -- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.889s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.933s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.007s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.073s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.352s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.364s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[3.210s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.042s] -- Found example_interfaces: 0.12.0 (/opt/ros/jazzy/share/example_interfaces/cmake)
+[4.598s] -- Configuring done (4.2s)
+[4.690s] -- Generating done (0.1s)
+[4.724s] -- Build files have been written to: /home/sachin/ros2_ws2/src/build/my_cpp_pkg
+[4.872s] [ 50%] Built target cpp_node
+[4.928s] [ 75%] [32mBuilding CXX object CMakeFiles/robot_news_station.dir/src/my_first_node.cpp.o[0m
+[13.434s] [100%] [32m[1mLinking CXX executable robot_news_station[0m
+[14.180s] [100%] Built target robot_news_station
+[14.207s] Invoked command in '/home/sachin/ros2_ws2/src/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sachin/robosim/install/restaurant_robot:/home/sachin/turtlebot3_ws/install/turtlebot3_teleop:/home/sachin/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy /usr/bin/cmake --build /home/sachin/ros2_ws2/src/build/my_cpp_pkg -- -j12 -l12
+[14.236s] Invoking command in '/home/sachin/ros2_ws2/src/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sachin/robosim/install/restaurant_robot:/home/sachin/turtlebot3_ws/install/turtlebot3_teleop:/home/sachin/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy /usr/bin/cmake --install /home/sachin/ros2_ws2/src/build/my_cpp_pkg
+[14.253s] -- Install configuration: ""
+[14.257s] -- Up-to-date: /home/sachin/ros2_ws2/src/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node
+[14.258s] -- Installing: /home/sachin/ros2_ws2/src/install/my_cpp_pkg/lib/my_cpp_pkg/robot_news_station
+[14.259s] -- Set non-toolchain portion of runtime path of "/home/sachin/ros2_ws2/src/install/my_cpp_pkg/lib/my_cpp_pkg/robot_news_station" to ""
+[14.260s] -- Up-to-date: /home/sachin/ros2_ws2/src/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
+[14.260s] -- Installing: /home/sachin/ros2_ws2/src/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
+[14.261s] -- Up-to-date: /home/sachin/ros2_ws2/src/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh
+[14.261s] -- Up-to-date: /home/sachin/ros2_ws2/src/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv
+[14.262s] -- Up-to-date: /home/sachin/ros2_ws2/src/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh
+[14.262s] -- Up-to-date: /home/sachin/ros2_ws2/src/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv
+[14.262s] -- Up-to-date: /home/sachin/ros2_ws2/src/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash
+[14.262s] -- Up-to-date: /home/sachin/ros2_ws2/src/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh
+[14.263s] -- Up-to-date: /home/sachin/ros2_ws2/src/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh
+[14.263s] -- Up-to-date: /home/sachin/ros2_ws2/src/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv
+[14.263s] -- Installing: /home/sachin/ros2_ws2/src/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv
+[14.264s] -- Up-to-date: /home/sachin/ros2_ws2/src/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg
+[14.264s] -- Up-to-date: /home/sachin/ros2_ws2/src/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake
+[14.264s] -- Up-to-date: /home/sachin/ros2_ws2/src/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake
+[14.264s] -- Up-to-date: /home/sachin/ros2_ws2/src/install/my_cpp_pkg/share/my_cpp_pkg/package.xml
+[14.273s] Invoked command in '/home/sachin/ros2_ws2/src/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sachin/robosim/install/restaurant_robot:/home/sachin/turtlebot3_ws/install/turtlebot3_teleop:/home/sachin/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy /usr/bin/cmake --install /home/sachin/ros2_ws2/src/build/my_cpp_pkg

@@ -1,0 +1,38 @@
+[2.570s] Invoking command in '/home/sachin/ros2_ws2/src/build/my_py_pkg': PYTHONPATH=/home/sachin/ros2_ws2/src/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sachin/ros2_ws2/src/install/my_py_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/sachin/ros2_ws2/src/build/my_py_pkg/build
+[3.481s] running develop
+[4.058s] Removing /home/sachin/ros2_ws2/src/install/my_py_pkg/lib/python3.12/site-packages/my-py-pkg.egg-link (link to .)
+[4.142s] Invoked command in '/home/sachin/ros2_ws2/src/build/my_py_pkg' returned '0': PYTHONPATH=/home/sachin/ros2_ws2/src/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sachin/ros2_ws2/src/install/my_py_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/sachin/ros2_ws2/src/build/my_py_pkg/build
+[4.142s] Invoking command in '/home/sachin/ros2_ws2/src/my_py_pkg': PYTHONPATH=/home/sachin/ros2_ws2/src/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sachin/ros2_ws2/src/install/my_py_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/my_py_pkg build --build-base /home/sachin/ros2_ws2/src/build/my_py_pkg/build install --record /home/sachin/ros2_ws2/src/build/my_py_pkg/install.log --single-version-externally-managed install_data --force
+[4.807s] running egg_info
+[4.846s] writing ../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[4.846s] writing dependency_links to ../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[4.847s] writing entry points to ../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[4.848s] writing requirements to ../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[4.848s] writing top-level names to ../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[4.937s] reading manifest file '../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[4.940s] writing manifest file '../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[4.940s] running build
+[4.944s] running build_py
+[4.944s] copying my_py_pkg/smartphone.py -> /home/sachin/ros2_ws2/src/build/my_py_pkg/build/lib/my_py_pkg
+[4.944s] running install
+[4.955s] running install_lib
+[4.997s] creating /home/sachin/ros2_ws2/src/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[4.998s] copying /home/sachin/ros2_ws2/src/build/my_py_pkg/build/lib/my_py_pkg/robot_news_station.py -> /home/sachin/ros2_ws2/src/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[5.001s] copying /home/sachin/ros2_ws2/src/build/my_py_pkg/build/lib/my_py_pkg/__init__.py -> /home/sachin/ros2_ws2/src/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[5.002s] copying /home/sachin/ros2_ws2/src/build/my_py_pkg/build/lib/my_py_pkg/my_first_node.py -> /home/sachin/ros2_ws2/src/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[5.002s] copying /home/sachin/ros2_ws2/src/build/my_py_pkg/build/lib/my_py_pkg/smartphone.py -> /home/sachin/ros2_ws2/src/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[5.003s] byte-compiling /home/sachin/ros2_ws2/src/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/robot_news_station.py to robot_news_station.cpython-312.pyc
+[5.004s] byte-compiling /home/sachin/ros2_ws2/src/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/__init__.py to __init__.cpython-312.pyc
+[5.008s] byte-compiling /home/sachin/ros2_ws2/src/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/my_first_node.py to my_first_node.cpython-312.pyc
+[5.008s] byte-compiling /home/sachin/ros2_ws2/src/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/smartphone.py to smartphone.cpython-312.pyc
+[5.008s] running install_data
+[5.008s] copying resource/my_py_pkg -> /home/sachin/ros2_ws2/src/install/my_py_pkg/share/ament_index/resource_index/packages
+[5.008s] copying package.xml -> /home/sachin/ros2_ws2/src/install/my_py_pkg/share/my_py_pkg
+[5.008s] running install_egg_info
+[5.062s] Copying ../build/my_py_pkg/my_py_pkg.egg-info to /home/sachin/ros2_ws2/src/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg-0.0.0-py3.12.egg-info
+[5.065s] running install_scripts
+[5.399s] Installing py_node script to /home/sachin/ros2_ws2/src/install/my_py_pkg/lib/my_py_pkg
+[5.400s] Installing robot_news_station script to /home/sachin/ros2_ws2/src/install/my_py_pkg/lib/my_py_pkg
+[5.401s] Installing smartphone script to /home/sachin/ros2_ws2/src/install/my_py_pkg/lib/my_py_pkg
+[5.401s] writing list of installed files to '/home/sachin/ros2_ws2/src/build/my_py_pkg/install.log'
+[5.492s] Invoked command in '/home/sachin/ros2_ws2/src/my_py_pkg' returned '0': PYTHONPATH=/home/sachin/ros2_ws2/src/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sachin/ros2_ws2/src/install/my_py_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/my_py_pkg build --build-base /home/sachin/ros2_ws2/src/build/my_py_pkg/build install --record /home/sachin/ros2_ws2/src/build/my_py_pkg/install.log --single-version-externally-managed install_data --force

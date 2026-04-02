@@ -210,12 +210,26 @@ cpp_node/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_node.dir/build.make CMakeFiles/cpp_node.dir/build
 .PHONY : cpp_node/fast
 
+#=============================================================================
+# Target rules for targets named robot_news_station
+
+# Build rule for target.
+robot_news_station: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 robot_news_station
+.PHONY : robot_news_station
+
+# fast build rule for target.
+robot_news_station/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot_news_station.dir/build.make CMakeFiles/robot_news_station.dir/build
+.PHONY : robot_news_station/fast
+
 src/my_first_node.o: src/my_first_node.cpp.o
 .PHONY : src/my_first_node.o
 
 # target to build an object file
 src/my_first_node.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_node.dir/build.make CMakeFiles/cpp_node.dir/src/my_first_node.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot_news_station.dir/build.make CMakeFiles/robot_news_station.dir/src/my_first_node.cpp.o
 .PHONY : src/my_first_node.cpp.o
 
 src/my_first_node.i: src/my_first_node.cpp.i
@@ -224,6 +238,7 @@ src/my_first_node.i: src/my_first_node.cpp.i
 # target to preprocess a source file
 src/my_first_node.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_node.dir/build.make CMakeFiles/cpp_node.dir/src/my_first_node.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot_news_station.dir/build.make CMakeFiles/robot_news_station.dir/src/my_first_node.cpp.i
 .PHONY : src/my_first_node.cpp.i
 
 src/my_first_node.s: src/my_first_node.cpp.s
@@ -232,6 +247,7 @@ src/my_first_node.s: src/my_first_node.cpp.s
 # target to generate assembly for a file
 src/my_first_node.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_node.dir/build.make CMakeFiles/cpp_node.dir/src/my_first_node.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot_news_station.dir/build.make CMakeFiles/robot_news_station.dir/src/my_first_node.cpp.s
 .PHONY : src/my_first_node.cpp.s
 
 # Help Target
@@ -250,6 +266,7 @@ help:
 	@echo "... my_cpp_pkg_uninstall"
 	@echo "... uninstall"
 	@echo "... cpp_node"
+	@echo "... robot_news_station"
 	@echo "... src/my_first_node.o"
 	@echo "... src/my_first_node.i"
 	@echo "... src/my_first_node.s"
